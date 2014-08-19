@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="no">
+    
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' type='text/css'/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    
+    
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/q.js"></script>
+
+</head>
+
+<body>
+	<!-- PRELOADER -->
+    <div id="preloader">
+        <div id="status">
+        	<div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    
+	<div class="containerback">
+    	<div class="mybackground" id="img_home">
+            <div class="content_top"><img class="logo" src="img/logo.svg" /></div>
+            <p class="text_white_title">FANCY SEEING YOU HERE.</p>
+            <p class="text_white">Please fill out this</p>
+            <p class="text_white">WEBSITE QUESTIONNAIRE</p>
+            <p class="text_white">to help us help you.</p>
+            <a class="bt_foot" href="#questionaire">
+            	<p class="fa fa-angle-down"></p>
+            </a> 
+        </div>
+                
+        <div class="mybackground" id="questionaire">
+            <div class="containter">
+                <p class="text_question">1. What is your favorite color?</p>
+                <textarea class="form-control" rows="3"></textarea>
+                <p class="text_question">2. Who pee’d in your cheerios and do they like sugar?</p>
+                <textarea class="form-control" rows="3"></textarea>
+                <p class="text_question">3. Who pee’d in your cheerios and do they like sugar?</p>
+                <textarea class="form-control"  rows="6"></textarea>
+                <p class="text_question">3. Who pee’d in your cheerios and do they like sugar?</p>
+                <textarea class="form-control" rows="3"></textarea>
+                <p class="text_question">5. Who pee’d in your cheerios and do they like sugar?</p>
+                <textarea class="form-control"  rows="6"></textarea>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit Questionnaire</button>
+            </div>
+        </div>
+      	
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="mybackground" id="img_congrats">
+                <div class="containter">
+                    <p class="text_white_title content_top">THANK YOU</p>
+                    <p class="text_white">This is going to be extremly beneficial for us to be better prepared for our initial website planning meeting.</p>
+                    <div class="whitesquare">
+                        <p class="text_white">Have any other questions or handy pieces of info before our meeting?</p>
+                        <button type="button" class="btn btn-info btn-lg">Email Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+   
+</body>
+</html>
