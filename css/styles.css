@@ -229,14 +229,18 @@ a:hover, a:visited, a:active {color: #FFFFFF; text-decoration: none;}
 	
 }
 
-/* HORIZONTALES 
+/* HORIZONTAL!! */
 @media only screen and (max-height: 500px) {
 	.content_top {padding-top: 2%;padding-bottom: 2%;}
 	.logo {width: 60px;}
 	.text_white_title {font-size: 28px; padding-bottom: 0%}
 	.text_white {font-size: 16px;}
+	#img_congrats .containter{width: 95%; margin-top: 0%;}
+	.whitesquare {margin-top: 0%; padding: 5px;}
+	.whitesquare .btn{max-width: 300px;}
+
 	
-}*/
+}
 	
 
 @media only screen and (max-width: 500px) {   /*mobile*/
