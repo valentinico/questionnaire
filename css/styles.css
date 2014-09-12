@@ -10,7 +10,7 @@ html, body{
 	min-height: 100%;
 	font-family: "Lato","tahoma","verdana","arial","sans-serif";
 	font-size: 16px;
-	font-weight:400;
+	font-weight:300;
 	letter-spacing:1.5px;
 	color:#8C8D8F;
 	background-color: #ededed;
@@ -68,6 +68,21 @@ a:hover, a:visited, a:active {color: #FFFFFF; text-decoration: none;}
 	margin-top: 5%;
 }
 
+.question{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.answer{
+	width:100%;
+	display:block;
+}
+
+input[type=radio], input[type=checkbox] {margin: 4px 7px 7px;}
+
+
+.text_question{
+}
 
 
 .logo{
@@ -144,6 +159,7 @@ a:hover, a:visited, a:active {color: #FFFFFF; text-decoration: none;}
 	margin-top: 10%;
 }
 
+.modal-dialog {z-index:50000}
 
 
 

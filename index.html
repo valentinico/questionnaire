@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Questionnaire</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="no">
+
     
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' type='text/css'/>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css"/>
@@ -44,19 +44,43 @@
                 
         <div class="mybackground" id="questionaire">
             <div class="containter">
-                <p class="text_question">1. What is your favorite color?</p>
-                <textarea class="form-control" rows="3"></textarea>
-                <p class="text_question">2. Who pee’d in your cheerios and do they like sugar?</p>
-                <textarea class="form-control" rows="3"></textarea>
-                <p class="text_question">3. Who pee’d in your cheerios and do they like sugar?</p>
-                <textarea class="form-control"  rows="6"></textarea>
-                <p class="text_question">3. Who pee’d in your cheerios and do they like sugar?</p>
-                <textarea class="form-control" rows="3"></textarea>
-                <p class="text_question">5. Who pee’d in your cheerios and do they like sugar?</p>
-                <textarea class="form-control"  rows="6"></textarea>
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit Questionnaire</button>
+            
+                <div class="question">
+                    <p class="text_question">1. What is your favorite color?</p>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+                
+                <div class="question">
+                    <p class="text_question">3. Which pet do you prefer?</p>
+                        <select>
+                            <option>I like cats</option>
+                            <option>I like dogs</option>
+                            <option>I like Rabbits</option>
+                            <option>My brother!</option>
+                        </select>
+                </div>
+                
+                <div class="question">
+                    <p class="text_question">4. Which pet do you prefer?</p>
+                        <span class="answer"><input type="radio" name="option" value="option1">Dogs</span>
+                        <span class="answer"><input type="radio" name="option" value="option2">Cats</span>
+                        <span class="answer"><input type="radio" name="option" value="option3">Rabbits</span>
+                        <span class="answer"><input type="radio" name="option" value="option4">My Brother</span>
+                </div>
+                
+                <div class="question">
+                    <p class="text_question">5.  Please check your pets</p>
+                        <span class="answer"><input type="checkbox" value="dog">Dog</span>
+                        <span class="answer"><input type="checkbox" value="dog">Bunny</span>
+                        <span class="answer"><input type="checkbox" value="dog">Cat</span>
+                        <span class="answer"><input type="checkbox" value="dog">My Brohter</span>
+                </div>
+                <button type="button" class="btn btn-info btn-lg" id="btn_submit">Submit Questionnaire</button>
+                
             </div>
         </div>
+        
+        
       	
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="mybackground" id="img_congrats">
@@ -72,6 +96,5 @@
         </div>
           
     </div>
-   
 </body>
 </html>
